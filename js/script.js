@@ -342,9 +342,6 @@ let cm;
 function init() { 
 	// create an instance of the contact manager
 	cm = new ContactManager();
-	
-  	cm.addTestData();
-  	cm.printContactsToConsole();
 
 	  // Display contacts in a table
       // Pass the id of the HTML element that will contain the table
@@ -437,12 +434,6 @@ class ContactManager {
      		return -1;
   
     	return 0;
-	}
-	
-	printContactsToConsole() {
-		this.listOfContacts.forEach(function(c) {
-			console.log(c.name);
-		});
 	}
 	
 	load() {
