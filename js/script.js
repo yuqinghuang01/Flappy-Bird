@@ -395,13 +395,9 @@ class ContactManager {
 	}
 	
 	addTestData() {
-		var c1 = new Contact("Sunny", "30");
-  		var c2 = new Contact("Amy", "10");
-  		var c3 = new Contact("Ann", "5");
+		var c1 = new Contact("Sunny", "90");
 		
 		this.add(c1);
-		this.add(c2);
-		this.add(c3);
 		
 		// Let's sort the list of contacts by Name
 		this.sort();
