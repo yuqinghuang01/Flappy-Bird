@@ -347,7 +347,8 @@ function init() {
   	cm.printContactsToConsole();
 
 	  // Display contacts in a table
-	  // Pass the id of the HTML element that will contain the table
+      // Pass the id of the HTML element that will contain the table
+      cm.sort();
 	  loadList();
 }
 
@@ -395,7 +396,7 @@ class ContactManager {
 	}
 	
 	addTestData() {
-		var c1 = new Contact("Sunny", "90");
+		var c1 = new Contact("Sunny", "80");
 		
 		this.add(c1);
 		
