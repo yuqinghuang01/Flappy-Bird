@@ -376,6 +376,7 @@ function emptyList() {
 }
 
 function loadList() {
+    cm.sort();
 	cm.load();
   	cm.displayContactsAsATable("contacts");
 }
